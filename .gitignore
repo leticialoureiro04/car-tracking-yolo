@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Vídeos
+*.mp4
+*.avi
+
+# Outros
+*.pkl
+*.DS_Store
+interactive_tracker_output.*
