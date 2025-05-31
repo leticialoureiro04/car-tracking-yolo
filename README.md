@@ -1,27 +1,39 @@
-# 🚗 YOLOv8 Car Tracking and Speed Estimation
+# 🚗 Car Speed Estimation with YOLOv8
 
-Este projeto utiliza o modelo **YOLOv8** para detetar e rastrear **carros** em vídeos, mostrando a **velocidade estimada em km/h** em tempo real.
-
-## 📹 Exemplo
-
-> O sistema desenha uma caixa à volta dos carros detetados e mostra a velocidade de cada um no vídeo.
+Projeto académico de Visão Computacional com Python, que utiliza o modelo **YOLOv8** para **detetar e rastrear carros** num vídeo previamente gravado, e estima a **velocidade de cada carro em km/h** com base na variação da posição entre frames.
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## 🎯 Objetivos
 
-- Python 3.12.10
+- Detetar **apenas carros** num vídeo.
+- Rastrear os carros ao longo dos frames.
+- Estimar e mostrar a **velocidade em km/h** de cada carro detetado.
+- Gerar um vídeo de saída com as caixas de deteção, labels e velocidades.
+
+---
+
+## 🖼️ Exemplo
+
+![output](examples/output_frame.png)
+
+---
+
+## 🛠️ Tecnologias e Bibliotecas
+
+- [Python 3.12.10](https://www.python.org/)
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - OpenCV
-- Ultralytics YOLOv8
 - NumPy
 
 ---
 
-## 🔧 Instalação
+## ▶️ Como Executar
 
-### 1. Clonar o repositório
+### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/leticialoureiro04/car-tracking-yolo.git
-cd car-tracking-yolo
+git clone https://github.com/leticialoureiro04/car-tracking-yolo
+cd teu-repositorio
+
 
