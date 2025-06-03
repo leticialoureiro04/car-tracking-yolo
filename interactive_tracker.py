@@ -7,7 +7,7 @@ from ultralytics.utils.plotting import Annotator, colors
 # Configurações
 enable_gpu = False
 model_file = "yolov8s.pt"
-video_path = "video.mp4"  # Substitui pelo caminho do teu vídeo
+video_path = "video.mp4" 
 video_output_path = "output_video.avi"
 save_video = True
 show_fps = True
@@ -15,7 +15,7 @@ show_fps = True
 conf = 0.3
 iou = 0.3
 max_det = 20
-pixels_per_meter = 8  # Ajusta este valor conforme o vídeo
+pixels_per_meter = 8  
 
 tracker = "bytetrack.yaml"
 track_args = {
@@ -24,7 +24,7 @@ track_args = {
 }
 
 # Inicializar modelo
-LOGGER.info("🚀 Inicializando modelo...")
+LOGGER.info("Inicializando modelo...")
 model = YOLO(model_file, task="detect")
 classes = model.names
 
